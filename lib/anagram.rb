@@ -13,6 +13,7 @@ class Anagram
     find_match_word = word.each { |w| w.split("")}
     #compare each word with word initialized
     same_letters = find_match_word.sort
+    
     binding.pry
 
     #are they composed of the same letters(use split to split words into letters)
