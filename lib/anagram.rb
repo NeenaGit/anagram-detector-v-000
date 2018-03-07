@@ -6,7 +6,11 @@ class Anagram
     @word = word
   end
 
-  def match
+  def match(word)
+    #iterate over array of words
+    #compare each word
+    #are they composed of the same letters
+    word
   end
 
 end
