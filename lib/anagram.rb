@@ -14,7 +14,7 @@ class Anagram
     #are they composed of the same letters(use split to split words into letters)
     #use sort to compare letter in both arrays.
     #compare 2 arrays with ==
-    
+    same_letters
   end
 
 end
