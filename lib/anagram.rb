@@ -10,7 +10,7 @@ class Anagram
 
   def match(word)
     #iterate over array of words
-    find_match_word = word.each { |l| l.split("")}
+    find_match_word = word.each { |l| l.scan("")}
     #compare each word with word initialized
     same_letters = find_match_word.sort
     binding.pry
