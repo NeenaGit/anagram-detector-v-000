@@ -10,11 +10,11 @@ class Anagram
 
   def match(array)
     array.each do |w|
-      find_match_letter = w.split("")
+      find_match_letter = w.split("").sort
           binding.pry
     end
-    same_letters = find_match_letter.sort
-    same_letters == @word
+
+    find_match_letter == @word
   end
 
 end
