@@ -10,16 +10,15 @@ class Anagram
 
   def match(word)
     #iterate over array of words
-    word.group_by { |element| element.downcase.chars.sort }.values
-    # find_match_word = word.each { |w| w.split("")}
+    find_match_word = word.each { |w| w.split("")}
     # #compare each word with word initialized
-    # same_letters = find_match_word.sort
+    same_letters = find_match_word.sort
 
 
     #are they composed of the same letters(use split to split words into letters)
     #use sort to compare letter in both arrays.
     #compare 2 arrays with ==
-    # same_letters
+    same_letters
   end
 
 end
