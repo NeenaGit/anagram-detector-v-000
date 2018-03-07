@@ -15,6 +15,8 @@ class Anagram
     same_letters = find_match_word.sort
     same_letters == @word
 
+    binding.pry
+
     #are they composed of the same letters(use split to split words into letters)
     #use sort to compare letter in both arrays.
     #compare 2 arrays with ==
