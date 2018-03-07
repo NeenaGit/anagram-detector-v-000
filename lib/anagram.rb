@@ -8,8 +8,10 @@ class Anagram
 
   def match(word)
     #iterate over array of words
-    #compare each word
-    #are they composed of the same letters
+    #compare each word with word initialized
+    #are they composed of the same letters(use split to split words into letters)
+    #use sort to compare letter in both arrays.
+    #compare 2 arrays with ==
     word
   end
 
